@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
@@ -139,7 +139,7 @@ const features = [
   }
 ];
 
-export default function SearchPage() {
+function SearchPageContent() {
   const searchParams = useSearchParams();
   const [filteredRVs, setFilteredRVs] = useState(sampleRVs);
   const [filters, setFilters] = useState({
@@ -537,5 +537,19 @@ export default function SearchPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="text-center">
+          <p className="text-gray-600">Loading search results...</p>
+        </div>
+      </div>
+    }>
+      <SearchPageContent />
+    </Suspense>
   );
 }
