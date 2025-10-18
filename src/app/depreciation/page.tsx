@@ -80,14 +80,14 @@ export default function DepreciationPage() {
           RV Depreciation Calculator
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium">
-          Understand your RV's current market value and depreciation over time. 
+          Understand your RV&apos;s current market value and depreciation over time. 
           Make informed decisions about buying, selling, or trading your recreational vehicle.
         </p>
       </div>
 
       {/* Calculator */}
       <div className="bg-white border border-gray-200 rounded-xl shadow-lg p-8 mb-12">
-        <h2 className="text-2xl font-bold text-black mb-6">Calculate Your RV's Current Value</h2>
+        <h2 className="text-2xl font-bold text-black mb-6">Calculate Your RV&apos;s Current Value</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Input Section */}
@@ -384,7 +384,7 @@ export default function DepreciationPage() {
               Why do RVs depreciate so quickly?
             </h3>
             <p className="text-gray-700">
-              RVs depreciate rapidly due to several factors: they're considered luxury items, have limited 
+              RVs depreciate rapidly due to several factors: they&apos;re considered luxury items, have limited 
               financing options, face seasonal demand fluctuations, and often require significant maintenance. 
               The large initial markup also contributes to steep depreciation curves.
             </p>
@@ -396,7 +396,7 @@ export default function DepreciationPage() {
             </h3>
             <p className="text-gray-700">
               Travel trailers and fifth wheels generally hold their value better than motorhomes because 
-              they don't have engines that require expensive maintenance. Among motorhomes, Class C units 
+              they don&apos;t have engines that require expensive maintenance. Among motorhomes, Class C units 
               typically depreciate slower than Class A due to their lower initial cost and broader market appeal.
             </p>
           </div>
@@ -418,7 +418,7 @@ export default function DepreciationPage() {
             </h3>
             <p className="text-gray-700">
               From a pure financial perspective, used RVs (3-5 years old) often provide the best value as 
-              they've absorbed the steepest depreciation while retaining modern features and warranties. 
+              they&apos;ve absorbed the steepest depreciation while retaining modern features and warranties. 
               However, consider your budget, desired features, and how long you plan to keep the RV.
             </p>
           </div>

@@ -346,7 +346,7 @@ export default function ClassCPage() {
             {manufacturer.featured && (
               <div className="bg-emerald-600 text-white text-center py-3">
                 <span className="text-sm font-bold uppercase tracking-wide">
-                  FEATURED - EDITOR'S CHOICE
+                  FEATURED - EDITOR&apos;S CHOICE
                 </span>
               </div>
             )}

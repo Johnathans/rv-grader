@@ -101,7 +101,7 @@ export default function SeatBeltLawsPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-black text-black mb-4">
-            The RV Traveler's Guide to Seat Belt Laws
+            The RV Traveler&apos;s Guide to Seat Belt Laws
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium">
             A practical, organized reference for planning safe road trips across North America
@@ -219,7 +219,7 @@ export default function SeatBeltLawsPage() {
             <div className="bg-white rounded-lg p-6 border border-gray-200">
               <h3 className="text-lg font-bold text-black mb-3">Strategy 3: Focus on the Front</h3>
               <p className="text-sm text-gray-600 mb-3">Best for: Solo travelers or two-person crews</p>
-              <p className="text-gray-700">If you're only using front seats, you'll automatically comply with every jurisdiction in North America.</p>
+              <p className="text-gray-700">If you&apos;re only using front seats, you&apos;ll automatically comply with every jurisdiction in North America.</p>
             </div>
           </div>
         </div>
@@ -239,7 +239,7 @@ export default function SeatBeltLawsPage() {
             <div>
               <h3 className="text-lg font-semibold text-[#FF5C00] mb-2">Aggressive Enforcement Campaigns</h3>
               <ul className="text-gray-700 space-y-1">
-                <li>• Hawaii: "Click It or Ticket" campaigns</li>
+                <li>• Hawaii: &quot;Click It or Ticket&quot; campaigns</li>
                 <li>• Rhode Island: Enhanced enforcement</li>
               </ul>
               <p className="text-sm text-gray-600 mt-2">Budget-conscious travelers should be especially vigilant in these jurisdictions.</p>

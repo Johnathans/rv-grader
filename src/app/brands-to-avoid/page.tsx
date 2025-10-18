@@ -38,7 +38,7 @@ export default function BrandsToAvoidPage() {
         'Battery nightmares - House battery systems fail prematurely ($200-$1,000+ replacement)',
         'Resale disaster - Depreciates 35-45% in first year due to reputation'
       ],
-      quote: 'The dealership wouldn\'t even let me test drive it—should\'ve been my first clue.',
+      quote: 'The dealership wouldn&apos;t even let me test drive it—should&apos;ve been my first clue.',
       rvGraderScore: 2.1,
       rvTypes: ['Class A']
     },
@@ -48,7 +48,7 @@ export default function BrandsToAvoidPage() {
       primaryIssues: 'Electrical failures, slide-outs',
       customerService: 'Very Poor',
       recommendation: 'Avoid',
-      details: 'Despite being one of America\'s largest manufacturers, Forest River leads in customer complaints across review platforms.',
+      details: 'Despite being one of America&apos;s largest manufacturers, Forest River leads in customer complaints across review platforms.',
       problems: [
         'Slide-out catastrophes - Units jam closed, requiring manual cranking mid-trip',
         'Electrical chaos - Haphazard wiring makes troubleshooting nearly impossible',
@@ -157,7 +157,7 @@ export default function BrandsToAvoidPage() {
       problems: [
         'Chronic roof leaks causing expensive water damage',
         'Battery system failures (particularly BT Cruiser model)',
-        'Lock malfunctions - Doors won\'t secure OR trap owners inside',
+        'Lock malfunctions - Doors won&apos;t secure OR trap owners inside',
         'Basement door failures - Cargo compartments open while driving'
       ],
       rvGraderScore: 4.5,
@@ -405,7 +405,7 @@ export default function BrandsToAvoidPage() {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold text-black mb-4">What Makes a Brand "Bad":</h3>
+            <h3 className="text-lg font-semibold text-black mb-4">What Makes a Brand &quot;Bad&quot;:</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="text-gray-400 mr-3 mt-1 flex-shrink-0">•</span>
@@ -553,7 +553,7 @@ export default function BrandsToAvoidPage() {
                     
                     {brand.quote && (
                       <div className="bg-gray-50 border-l-4 border-[#FF5C00] p-4 italic text-gray-700">
-                        "{brand.quote}"
+                        &quot;{brand.quote}&quot;
                       </div>
                     )}
                   </div>

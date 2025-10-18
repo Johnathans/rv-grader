@@ -59,7 +59,7 @@ export default function CalculatorPage() {
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium">
           Plan your RV adventure with confidence. Calculate fuel costs for your trip based on 
-          your RV's efficiency, trip distance, and current fuel prices.
+          your RV&apos;s efficiency, trip distance, and current fuel prices.
         </p>
       </div>
 
@@ -232,7 +232,7 @@ export default function CalculatorPage() {
       <div className="bg-white border border-gray-200 rounded-xl shadow-sm p-8 mb-12">
         <h2 className="text-2xl font-bold text-black mb-6">RV Fuel Efficiency Guide</h2>
         <p className="text-gray-600 mb-6">
-          Don't know your RV's fuel efficiency? Use these typical ranges as a starting point. 
+          Don&apos;t know your RV&apos;s fuel efficiency? Use these typical ranges as a starting point. 
           Actual mileage varies based on driving conditions, RV weight, and maintenance.
         </p>
         

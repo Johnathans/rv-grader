@@ -2,7 +2,6 @@
 
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
-import Image from 'next/image';
 
 // Sample blog post data - in a real app, this would come from an API or CMS
 const sampleBlogPosts = [
@@ -59,7 +58,7 @@ const sampleBlogPosts = [
     id: 2,
     slug: 'best-rv-parks-national-parks-2024',
     title: 'Best RV Parks Near National Parks in 2024',
-    excerpt: 'Discover the top RV parks and campgrounds located near America\'s most beautiful national parks.',
+    excerpt: 'Discover the top RV parks and campgrounds located near America&apos;s most beautiful national parks.',
     content: `
       <p>Planning an RV trip to national parks requires careful consideration of where to stay. Here are the best RV parks and campgrounds near popular national parks.</p>
       
@@ -149,7 +148,7 @@ export default function BlogPostPage() {
     return (
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <h1 className="text-2xl font-bold text-black mb-4">Post Not Found</h1>
-        <p className="text-gray-600 mb-8">The blog post you're looking for doesn't exist.</p>
+        <p className="text-gray-600 mb-8">The blog post you&apos;re looking for doesn&apos;t exist.</p>
         <Link href="/blog" className="bg-[#FF5C00] text-white px-6 py-2 rounded-lg hover:bg-[#E64A00] transition-colors font-bold">
           Back to Blog
         </Link>

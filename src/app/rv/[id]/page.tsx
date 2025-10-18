@@ -78,7 +78,7 @@ export default function RVDetailPage() {
     return (
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <h1 className="text-2xl font-bold text-black mb-4">RV Not Found</h1>
-        <p className="text-gray-600 mb-8">The RV you're looking for doesn't exist.</p>
+        <p className="text-gray-600 mb-8">The RV you&apos;re looking for doesn&apos;t exist.</p>
         <Link href="/search" className="bg-[#FF5C00] text-white px-6 py-2 rounded-lg hover:bg-[#E64A00] transition-colors font-bold">
           Browse All RVs
         </Link>
