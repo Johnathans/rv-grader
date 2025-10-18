@@ -366,7 +366,7 @@ export default function BrandsToAvoidPage() {
           RV Brands to Avoid in 2025
         </h1>
         <p className="text-xl text-gray-600 max-w-4xl mx-auto font-medium">
-          Expert buyer's guide based on thousands of owner complaints, safety recalls, 
+          Expert buyer&apos;s guide based on thousands of owner complaints, safety recalls, 
           and industry data to help you avoid costly mistakes.
         </p>
         <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-lg max-w-3xl mx-auto">
